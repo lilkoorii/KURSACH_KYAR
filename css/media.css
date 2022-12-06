@@ -1,0 +1,1065 @@
+@media screen and (max-width:1200px){
+    .main, .inspo, .codes, .article, .explore, .profile
+    {
+        height: 100%;
+    }
+
+    .main__headline, .inspo__headline, .codes__headline
+    {
+        font-size: 5.3333vw;
+        letter-spacing: -0.065em;
+        width: 80vw;
+    }
+    .main__subheadline
+    {
+        font-size: 2.6667vw;
+    }
+    /* Фон и картинки */
+
+    .main__picture, .main__picture_picture2, .main__picture_picture3
+    {
+        width: 50vw;
+        height: 30vh;
+    }
+    .main__picture
+    {
+        top: -0.9375rem;
+        z-index: -100;
+    }
+    .main__picture_picture2
+    {
+        height: 40vh;
+        width: 60vw;
+        bottom: -3.3854vw;
+        left: -0.8333vw;
+    }
+    .main__picture_picture3
+    {
+        height: 55vh;
+    }
+
+    /* Кнопка "Найти вдохновение" */
+
+    .main__button
+    {
+        width: 20vw;
+        height: 20vw;
+        font-size: 2.6667vw;
+        line-height: 120%;
+    }
+
+    /* Контейнеры главного контента */
+
+    .main__container
+    {
+        backdrop-filter: blur(7px);
+    }
+
+    /* INSPIRATON */
+
+    .inspo__body, .explore__body
+    {
+        background: url(../bg/bg.png) no-repeat; 
+        background-size: cover;
+        background-color: #232323;
+        margin: 0;
+        width: 100vw;
+        height: auto;
+        overflow: scroll;
+    }
+    .inspo__headline
+    {
+        display: flex;
+        margin-top: 2.6042vw;
+        text-align: left;
+        margin-left: 5%;
+        width: 90vw;
+        margin-bottom: 4.1667vw;
+    }
+    .inspo__subheadline
+    {
+        font-size: 2.6667vw;
+    }
+
+    /* Сортировка по темам */
+
+    .inspo__list-row1, .inspo__list-row2
+    {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(auto-fill, 32px);
+        align-items: center;
+        justify-items: center;
+        gap: 2.5vw;
+        margin-left: 5%;
+        width: 90vw;
+        height: auto;
+    }
+    .inspo__list-row1
+    {
+        margin-top: 2.5vw;
+    }
+    .inspo__list-element, .inspo__list-button
+    {
+        font-size: 2.6667vw;
+        line-height: 100%;
+    }
+    .inspo__list-row2 .inspo__list-element:first-of-type
+    {
+        grid-row: 2;
+        grid-column:2;
+    }
+    .inspo__list-row1 .inspo__list-element:last-of-type
+    {
+        grid-column: 1 / 3;
+    }
+    /* Блок с работами */
+    .inspo__explore, .codes__explore, .profile__explore
+    {
+        width: 90vw;
+        margin-top: 4.1667vw;
+        margin-left: 5%;
+        gap: 2.5vw;
+        justify-content:space-evenly;
+        height: 70%;
+    }
+    .inspo__work
+    {
+        height: 30%;
+        padding: 1vh;
+    }
+    .inspo__work-headline, .inspo__work-description
+    {
+        font-family: regular;
+        font-size: 3vw;
+    }
+    .inspo__work-description
+    {
+        font-family: extralight;
+        font-size: 2.3333vw;
+    }
+    .inspo__footer
+    {
+        width: 90vw;
+        height: 16.6667vw;
+        margin-left: 5%;
+        margin-top: 5vw;
+    }
+    .inspo__footer-logo
+    {
+        margin-left: 4.24%;
+        flex: 0 1 10%;
+    }
+    .inspo__footer-row
+    {
+        gap: 2.5vw;
+    }
+    .inspo__links
+    {
+        padding: 0vw 0px;
+        /*gap: 2.5vw*/
+    }
+    .inspo__row-element
+    {
+        font-size: 2vw;
+    }
+    .inspo__thanks
+    {
+        font-size: 2vw;
+    }
+    .codes__headline
+    {
+        margin-left: 5%;
+        width: 90vw;
+    }
+    .codes__description
+    {
+        font-family: regular;
+        font-size: 2vw;
+        margin-left: 5%;
+        width: 90vw;
+    }
+    .codes__explore
+    {
+        align-items: center;
+        gap: 2.6042vw;
+        margin-top: 2.6042vw;
+        margin-left: 5%;
+        width: 90vw;
+        padding: 2.6042vw 0px 3.6458vw 0px;
+        backdrop-filter: blur(20px);
+    }
+    .codes__card
+    {
+        width: 80vw;
+        height: 100%;
+        justify-content: space-evenly;
+    }
+    .codes__back
+    {
+        position: absolute;
+        z-index: 0;
+        top: 0px;
+        width: 80vw;
+        height: 100%;
+    }
+    .codes__card-date, .codes__subheadline
+    {
+        font-size: 2.6667vw;
+        padding-bottom: 1.6667vw;
+    }
+    .codes__subheadline
+    {
+        margin-top: 2.3438vw;
+        margin-bottom: .2604vw;
+        text-decoration: underline;
+    }
+    .codes__card-description
+    {
+        font-family: regular;
+        font-size: 2.3333vw;
+        line-height:110%;
+    }
+    .codes__card-flex, .codes__button
+    {
+        z-index: 100;
+    }
+    .codes__button
+    {
+        padding: 1.6667vw 3.75vw;
+        font-family: regular;
+        font-size: 2vw;
+    }
+    .article
+    {
+        height: auto;
+        margin-left: 5%;
+    }
+    .article__nav
+    {
+        width: 25vw;
+    }
+    .article__list
+    {
+        display: flex;
+        flex-direction: column;
+        gap: 1.25vw;
+    }
+    .article__nav-element
+    {
+        font-size: 2.3333vw;
+    }
+    .article__nav-heading
+    {
+        font-size: 2.6667vw;
+        cursor: pointer;
+    }
+    .article__content
+    {
+        flex-basis: 79%;
+    }
+
+    .article__headline, .explore__headline
+    {
+        font-size: 5.3333vw;
+        line-height: 100%;
+    }
+    .article__description
+    {
+        font-size: 2.3333vw;
+        line-height: 110%;
+        margin-right: 0px;
+    }
+    .article__subheadline
+    {
+        font-size: 2.6667vw;
+    }
+    .article__video
+    {
+        width: 60vw;
+    }
+    .article__code-css, .article__code-html, .article__code-js
+    {
+        width: 60vw;
+        height: 16.9375rem;
+    }
+    .article__code
+    {
+        font-size: 1.8333vw;
+        line-height: 110%;
+    }
+    .second-code
+    {
+        margin-bottom: 1.0417vw;
+    }
+    .explore
+    {
+        margin-left: 5%;
+    }
+    .explore__headline
+    {
+        width: 90vw;
+    }
+    .explore__flex-container
+    {
+        width: 65vw;
+    }
+    .explore__object-headline
+    {
+        font-size: 2.6667vw;
+        margin-bottom: 1.25vw;
+        text-align: center;
+    }
+    .first-h5
+    {
+        margin-top: 2.9688vw;
+    }
+    .explore__object-pic
+    {
+        width: 65vw;
+        height: 16.6667vw;
+    }
+    .explore__object-tags
+    {
+        margin: 1.25vw 0px;
+        font-size: 2.3333vw;
+        text-align: center;
+    }
+    .explore__object-link
+    {
+        margin-bottom: 2.6042vw;
+        padding: .5208vw;
+        width: 65vw;
+        height: 5vw;
+        font-size: 2.6667vw;
+    }
+    .explore__search
+    {
+        width: 20vw;
+    }
+    .explore__search-headline
+    {
+        font-size: 2.6667vw;
+        line-height: 110%;
+    }
+    .text-input
+    {
+        width: 17.9688vw;
+        height: 2.9167vw;
+        margin-top: 1.25vw;
+        font-size: 2vw;
+    }
+    ::placeholder
+    {
+        font-size: 2vw;
+    }
+    .explore__search-list
+    {
+        margin-top: 1.25vw;
+    }
+    .explore__search-list ul 
+    {
+        gap: 1.25vw
+    }
+    /*PROFILE*/
+    .profile__container
+    {
+        margin-left: 5%;
+        flex-direction: column;
+    }
+    .profile__container-left
+    {
+        flex-direction: row;
+        gap: 2.5vw;
+        width: 91vw;
+    }
+    .profile__container-right
+    {
+        position: relative;
+        top: -14.1667vw;
+    }
+    .profile__picture
+    {
+        width: 70vw;
+        height: 25vw;
+    }
+    .profile__info
+    {
+        margin-top: 0px;
+        width: 30vw;
+    }
+    .profile__list-element
+    {
+        font-size: 2vw;
+        width: 19.5vw;
+        height: 5.5vw;
+    }
+    .profile__name
+    {
+        font-size: 5.3333vw;
+        margin-bottom: 1.6667vw;
+        margin-left: 3%;
+    }
+    .profile__location
+    {
+        margin-left: 3%;
+        font-size: 2.6667vw;
+        margin-bottom: 1.25vw;
+    }
+    .profile__time
+    {   
+        margin-left: 3%;
+        font-size: 2vw;
+        margin-bottom: 4.1667vw;
+    }
+    canvas
+    {
+        left: -25vw;
+    }
+    .button-text span
+    {
+        font-size: 2.3333vw;
+    }
+    .submitMessage svg
+    {
+        width: 2.0833vw;
+    }
+    .loadingMessage svg
+    {
+        fill: #5c86ff;
+        margin: 0;
+        width: 2.0833vw;
+    }
+    #button
+    {
+        width: 45vw;
+        height: 5.8333vw;
+    }
+    .profile__sponsor
+    {
+        width: 45vw;
+        height: 5vw;
+        background: #7793F5;
+        border-radius: .7813vw;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-decoration: none;
+        margin: 0px;
+        padding: 0px;
+    }
+    .profile__flex-button
+    {
+        display: flex;
+        flex-direction: row;
+        gap: 1.3021vw;
+        align-items: center;
+        height: 5vw;
+    }
+    .profile__flex-badges
+    {
+        display: flex;
+        flex-direction: row;
+        gap: 1.3021vw;
+        margin-top: 1.3021vw;
+    }
+    .profile__flex-badges
+    {
+        margin-top: 2.5vw;
+        margin-bottom: 2.5vw;
+    }
+    .profile__badge
+    {
+        padding: 1.25vw 3.3333vw;
+        border-radius: 2.0833vw;
+        font-size: 2.3333vw;
+    }
+    .honor
+    {
+        padding: 1.25vw 3.3333vw;
+    }
+    .profile__explore
+    {
+        width: 90vw;
+        margin: 0px;
+        margin-top: 1.0417vw;
+    }
+    .profile__work-row1, .profile__work-row2
+    {
+        justify-content: space-around;
+        padding: 1.0417vw .7813vw;
+        padding-left: .3646vw;
+        gap: .2604vw;
+    }
+    .profile__work-row2
+    {
+        padding-bottom: 3.3333vw;
+        padding-top: 0px;
+    }
+    .profile__work-container
+    {
+        padding: .7813vw 0px 0px 1.0417vw;
+        gap: .7813vw;
+    }
+    .profile__work-pic-container
+    {
+        display: flex;
+        width: 25vw;
+    }
+    .profile__work-back
+    {
+        width: 25vw;
+        height: auto;
+    }
+    .profile__work-picture
+    {
+        width: 25vw;
+        height: auto;
+    }
+    .profile__work-picture:hover
+    {
+        margin-top: 0px;
+        margin-left: 0px;
+        transition: 0.3s;
+    }
+    .profile__work-title
+    {
+        font-size: 2.3333vw;
+        margin-top: 1.25vw;
+        margin-left: 1.25vw;
+        margin-bottom: 0px;
+    }
+    /* ONE PAGE */
+    
+    .onepage__container
+    {
+        align-items: center;
+    }
+    .onepage__buttons-flex
+    {
+        justify-content: space-between;
+    }
+    .onepage__button
+    {
+        height: 5vw;
+        font-size: 2.3333vw;
+    }
+    .onepage__button img
+    {
+        width: 3vw;
+    }
+}
+@media screen and (max-width:768px){
+    .main, .inspo, .codes, .article, .explore, .profile
+    {
+        height: 100%;
+    }
+
+    .main__headline, .inspo__headline, .codes__headline
+    {
+        font-size: 5.3333vw;
+        letter-spacing: -0.065em;
+        width: 80vw;
+    }
+    .main__subheadline
+    {
+        font-size: 2.6667vw;
+    }
+    /* Фон и картинки */
+
+    .main__picture, .main__picture_picture2, .main__picture_picture3
+    {
+        width: 50vw;
+        height: 30vw;
+    }
+    .main__picture
+    {
+        top: -0.9375rem;
+        z-index: -100;
+    }
+    .main__picture_picture2
+    {
+        height: 50vw;
+        width: 60vw;
+        bottom: -3.3854vw;
+        left: -0.8333vw;
+    }
+    .main__picture_picture3
+    {
+        height: 60vw;
+    }
+
+    /* Кнопка "Найти вдохновение" */
+
+    .main__button
+    {
+        width: 20vw;
+        height: 20vw;
+        font-size: 2.6667vw;
+        line-height: 120%;
+    }
+
+    /* Контейнеры главного контента */
+
+    .main__container
+    {
+        backdrop-filter: blur(7px);
+    }
+    .inspo__subheadline
+    {
+        font-size: 2.8646vw;
+    }
+    .inspo__list-button
+    {
+        font-size: 2.8646vw;
+    }
+    .inspo__work-headline
+    {
+        font-size: 3.6458vw;
+        line-height: 110%;
+    }
+    .inspo__work-description
+    {
+        font-size: 2.8646vw;
+    }
+    .inspo__row-element
+    {
+        font-size: 2.6042vw;
+    }
+    .inspo__footer
+    {
+        width: 90vw;
+        height: 19vh;
+        margin-left: 5%;
+        margin-top: 5vw;
+    }
+    .inspo__footer-logo
+    {
+        margin-left: 4.24%;
+        flex: 0 1 10%;
+    }
+    .inspo__thanks
+    {
+        font-size: 2.6042vw;
+    }
+    .codes__headline
+    {
+        margin-left: 5%;
+        width: 90vw;
+    }
+    .codes__description
+    {
+        font-family: regular;
+        font-size: 2.8646vw;
+        margin-left: 5%;
+        width: 90vw;
+    }
+    .codes__explore
+    {
+        align-items: center;
+        gap: 2.6042vw;
+        margin-top: 2.6042vw;
+        margin-left: 5%;
+        width: 90vw;
+        padding: 2.6042vw 0px 3.6458vw 0px;
+        backdrop-filter: blur(20px);
+    }
+    .codes__card
+    {
+        width: 75vw;
+        height: 100%;
+        justify-content: space-evenly;
+    }
+    .codes__back
+    {
+        position: absolute;
+        z-index: 0;
+        top: 0px;
+        width: 80vw;
+        height: 100%;
+    }
+    .codes__card-date, .codes__subheadline
+    {
+        padding-top: 2.6042vw;
+        font-size: 3.6458vw;
+        padding-bottom: 1.6667vw;
+    }
+    .codes__subheadline
+    {
+        margin-top: 2.3438vw;
+        margin-bottom: .2604vw;
+        text-decoration: underline;
+    }
+    .codes__card-description
+    {
+        font-family: regular;
+        font-size: 2.8646vw;
+        line-height:110%;
+        height: 7.8125vh;
+    }
+    .codes__card-flex, .codes__button
+    {
+        z-index: 100;
+    }
+    .codes__button
+    {
+        margin-top: 2.6042vw;
+        padding: 1.6667vw 3.75vw;
+        font-family: regular;
+        font-size: 2vw;
+    }
+    .article
+    {
+        margin-top: 3.9063vw;
+        height: auto;
+        margin-left: 5%;
+        flex-direction: column;
+        width: 90vw;
+    }
+    .article__nav
+    {
+        width: 90vw;
+        flex-direction: row;
+        margin-bottom: 20px;
+    }
+    .article__nav-element
+    {
+        font-size: 2.3333vw;
+    }
+    .article__content
+    {
+        flex-basis: 80%;
+    }
+    .article__description
+    {
+        font-size: 2.6042vw;
+        line-height: 110%;
+        margin-right: 0px;
+    }
+    .article__subheadline
+    {
+        font-size: 3.6458vw;
+    }
+    .article__video
+    {
+        width: 90vw;
+    }
+    .article__code-css, .article__code-html, .article__code-js
+    {
+        width: 90vw;
+        height: 16.9375rem;
+    }
+    .article__code
+    {
+        font-size: 2.3438vw;
+        line-height: 110%;
+    }
+    .second-code
+    {
+        margin-bottom: 1.0417vw;
+    }
+    .explore__main-container
+    {
+        flex-direction: column;
+    }
+    .explore
+    {
+        margin-left: 5%;
+    }
+    .explore__headline
+    {
+        width: 90vw;
+    }
+    .explore__flex-container
+    {
+        order: 2;
+        width: 65vw;
+    }
+    .explore__object-headline
+    {
+        width: 90vw;
+        font-size: 2.6667vw;
+        margin-bottom: 1.25vw;
+        text-align: center;
+    }
+    .first-h5
+    {
+        margin-top: 2.9688vw;
+    }
+    .explore__object-pic
+    {
+        width: 90vw;
+        height: 16.6667vw;
+    }
+    .explore__object-tags
+    {
+        opacity: 1;
+        width: 90vw;
+        margin: 1.25vw 0px;
+        font-size: 2.3333vw;
+        text-align: center;
+    }
+    .explore__object-link
+    {
+        margin-bottom: 2.6042vw;
+        padding: .5208vw;
+        width: 90vw;
+        height: 5vw;
+        font-size: 2.6667vw;
+    }
+    .explore__search
+    {
+        margin-left: 0px;
+        padding-left: 2.6042vw;
+        order: 1;
+        width: 90vw;
+        height: 6.5104vw;
+    }
+    .explore__search-headline
+    {
+        padding-right: 2.6042vw;
+        font-size: 2.6667vw;
+        line-height: 110%;
+    }
+    .text-input
+    {
+        width: 70%;
+        font-size: 2vw;
+    }
+    ::placeholder
+    {
+        font-size: 2vw;
+    }
+    .liveSearchBar
+    {
+        visibility: hidden;
+    }
+    /*PROFILE*/
+    .profile__container
+    {
+        margin-left: 5%;
+        flex-direction: column;
+    }
+    .profile__container-left
+    {
+        flex-direction: row;
+        gap: 2.5vw;
+        width: 91vw;
+    }
+    .profile__container-right
+    {
+        position: relative;
+        top: -20vw;
+    }
+    .profile__picture
+    {
+        width: 70vw;
+        height: 50vw;
+    }
+    .profile__info
+    {
+        margin-top: 0px;
+        width: 30vw;
+    }
+    .profile__list
+    {
+        gap: 30px;
+    }
+    .profile__list-element
+    {
+        font-size: 2.5vw;
+        width: 19.5vw;
+        height: 5.5vw;
+    }
+    .profile__name
+    {
+        font-size: 7vw;
+        margin-bottom: 3vw;
+        margin-left: 3%;
+    }
+    .profile__location
+    {
+        margin-left: 3%;
+        font-size: 4vw;
+        margin-bottom: 3vw;
+    }
+    .profile__time
+    {   
+        margin-left: 3%;
+        font-size: 3.5vw;
+        margin-bottom: 4.1667vw;
+    }
+    canvas
+    {
+        left: -25vw;
+    }
+    .button-text span
+    {
+        font-size: 3.5vw;
+    }
+    .submitMessage svg
+    {
+        width: 3.5vw;
+    }
+    .loadingMessage svg
+    {
+        fill: #5c86ff;
+        margin: 0;
+        width: 3.5vw;
+    }
+    .successMessage svg
+    {
+        width: 3.5vw;
+    }
+    #button
+    {
+        width: 45vw;
+        height: 7.5vw;
+    }
+    .profile__sponsor
+    {
+        width: 45vw;
+        height: 7vw;
+        background: #7793F5;
+        border-radius: .7813vw;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 3.5vw;
+        text-decoration: none;
+        margin: 0px;
+        padding: 0px;
+    }
+    .profile__flex-button
+    {
+        display: flex;
+        flex-direction: row;
+        gap: 1.3021vw;
+        align-items: center;
+        height: 8vw;
+    }
+    .profile__flex-badges
+    {
+        display: flex;
+        flex-direction: row;
+        gap: 1.3021vw;
+        margin-top: 1.3021vw;
+    }
+    .profile__flex-badges
+    {
+        margin-top: 2.5vw;
+        margin-bottom: 2.5vw;
+    }
+    .profile__badge
+    {
+        padding: 1.25vw 3.3333vw;
+        border-radius: 4vw;
+        font-size: 2.8vw;
+        font-weight: 700;
+        height: 4vw;
+    }
+    .honor
+    {
+        padding: 1.25vw 3.3333vw;
+    }
+    .profile__explore
+    {
+        border-radius: 5.2083vw;
+        width: 90vw;
+        margin: 0px;
+        margin-top: 1.0417vw;
+    }
+    .profile__work-row1, .profile__work-row2
+    {
+        margin-top: 3.9063vw;
+        flex-direction: column;
+        justify-content: center;
+        padding: 1.0417vw .7813vw;
+        padding-left: .3646vw;
+        gap: .2604vw;
+    }
+    .profile__work-row2
+    {
+        margin-top: 0px;
+        padding-bottom: 3.3333vw;
+        padding-top: 0px;
+    }
+    .profile__work-container
+    {
+        padding: .7813vw 0px 0px 1.0417vw;
+        gap: .7813vw;
+        width: 80vw;
+    }
+    .profile__work-pic-container
+    {
+        display: flex;
+        width: 80vw;
+    }
+    .profile__work-back
+    {
+        border-radius: 3.2552vw;
+        width: 80vw;
+        height: auto;
+    }
+    .profile__work-picture
+    {
+        border-radius: 3.2552vw;
+        width: 80vw;
+        height: auto;
+    }
+    .profile__work-picture:hover
+    {
+        margin-top: 0px;
+        margin-left: 0px;
+        transition: 0.3s;
+    }
+    .profile__work-title
+    {
+        font-size: 5vw;
+        margin-top: 5vw;
+        margin-bottom: 3vw;
+    }
+    /* ONE PAGE */
+    
+    .onepage__container
+    {
+        width: 80vw;
+        align-items: center;
+        padding: 3.9063vw 6.5104vw;
+    }
+    .onepage__headline
+    {
+        font-size: 6.25vw;
+    }
+    .onepage__name
+    {
+        margin-top: 1.3021vw;
+        margin-bottom: 1.9531vw;
+        font-size: 4.1667vw;
+    }
+    .onepage__description
+    {
+        font-size: 2.8646vw;
+        width: 100%;
+        line-height: 110%;
+    }
+    .onepage__image
+    {
+        width: 80vw;
+    }
+    .onepage__buttons-flex
+    {
+        width: 100%;
+        justify-content: space-between;
+    }
+    .onepage__button
+    {
+        height: 7.8125vw;
+        font-size: 2.3333vw;
+        padding: 0px 2.6042vw;
+    }
+    .onepage__button img
+    {
+        width: 3.9063vw;
+    }
+}

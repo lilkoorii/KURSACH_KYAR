@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <!--<link rel="stylesheet" href="css\styleheader.css">-->
+    <link rel="stylesheet" href="css/animatestyle.css">
+    <link rel="stylesheet" href="css/headerstyle.css">
+    <link rel="stylesheet" href="css/media.css">
+    <title>web.</title>
+</head>
+<body class="mainbody">
+    <header class="header">     
+    <div class="iconDiv" tooltip="Профиль" tabindex="0">
+      <div class="iconSVG">
+        <a href="profile.html">
+          <img src="icons/profile.svg" alt="profile">
+        </a>
+      </div>
+    </div>
+    <div class="iconDiv" tooltip="Ресурсы" tabindex="0">
+      <div class="iconSVG">
+        <a href="explore.html">
+          <img src="icons/explore.svg" alt="explore">
+        </a>
+      </div>
+    </div>
+    <div class="iconDiv" tooltip="Главная" tabindex="0">
+      <div class="iconSVG">
+        <a href="index.html">
+          <img src="icons/main.svg" alt="main">
+        </a>
+      </div>
+    </div>
+    <div class="iconDiv" tooltip="Тренды и фичи" tabindex="0">
+      <div class="iconSVG">
+        <a href="codes.html">
+          <img src="icons/codes.svg" alt="codes">
+        </a>
+      </div>
+    </div>
+    <div class="iconDiv" tooltip="Вдохновение" tabindex="0">
+      <div class="iconSVG">
+        <a href="inspo.html">
+          <img src="icons/inspo.svg" alt="inspo">
+        </a>
+      </div>
+    </div>   
+    </header>
+    <script src="js/jquery.min.js"></script>
+    <script  src="js/animate.js"></script>
+    <main class="main">
+        <img class="main__picture" src="images/main3.png" alt="work1">
+        <img class="main__picture_picture2" src="images/main1.png" alt="work2">
+        <img class="main__picture_picture3" src="images/main2.png" alt="work3">
+        <pre class="main__paragraph1">
+&#60;head>
+&#60;style>div {
+background-color: coral;
+width: 200px;
+height: 100px;
+border: 1px solid black;
+}&#60;/style>&#60;/head>&#60;body>&#60;h2>Overflow: scroll&#60;/h2>&#60;p>Setting the overflow value to scroll, the overflow is clipped and a scrollbar is added to scroll inside the box. Note that this will add a scrollbar both horizontally and vertically (even if you do not need it):&#60;/p>
+&#60;div>You can use the overflow property when you want to have better control of the layout. The overflow property specifies what happens if content overflows an element's box.&#60;/div>
+        </pre>
+        <pre class="main__paragraph2">
+body { font-family: Helvetica; text-align: center;}
+img { margin: 10px; }
+/* dummy image styles */
+.dummy {
+box-sizing: border-box;
+display: inline-block; 
+position: relative;
+}.dummy:before {
+content: '';
+position: absolute;
+background: lightgray;
+top: 0;
+right: 0;
+bottom: 0;
+left: 0;
+}.dummy:after { 
+content: attr(width) " x " attr(height);
+white-space: pre;
+color: gray;
+text-align: center;
+display: block;
+position: absolute;
+width: 100%;
+top: calc(50% - .5em);
+font-size: 100%;
+}
+        </pre>
+            <pre class="main__paragraph3">
+top: 0;
+right: 0;
+bottom: 0;
+left: 0;
+}.dummy:after { 
+content: attr(width) " x " attr(height);
+white-space: pre;
+color: gray;
+text-align: center;
+display: block;
+position: absolute;
+width: 100%;
+top: calc(50% - .5em);
+font-size: 100%;
+            </pre>
+            <div class="main__container">
+                <h1 class="main__headline">Ищете вдохновение для ваших новых проектов?</h1>
+                <div class="main__container2">
+                    <h2 class="main__subheadline  txt anim-text-flow">web.com способен помочь в этом!</h2>
+                    <a class="main__button" href="inspo.html">Найти вдохновение</a>
+                </div>
+            </div>
+    </main>
+</body>
+</html>

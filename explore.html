@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/headerstyle.css">
+    <link rel="stylesheet" href="css/animatestyle.css">
+    <link rel="stylesheet" href="css/media.css">
+    <title>Поиск</title>
+</head>
+<body class="explore__body">
+    <header class="header">     
+    <div class="iconDiv" tooltip="Профиль" tabindex="0">
+      <div class="iconSVG">
+        <a href="profile.html">
+          <img src="icons/profile.svg" alt="profile">
+        </a>
+      </div>
+    </div>
+    <div class="iconDiv" tooltip="Ресурсы" tabindex="0">
+      <div class="iconSVG">
+        <a href="explore.html">
+          <img src="icons/explore.svg" alt="explore">
+        </a>
+      </div>
+    </div>
+    <div class="iconDiv" tooltip="Главная" tabindex="0">
+      <div class="iconSVG">
+        <a href="index.html">
+          <img src="icons/main.svg" alt="main">
+        </a>
+      </div>
+    </div>
+    <div class="iconDiv" tooltip="Тренды и фичи" tabindex="0">
+      <div class="iconSVG">
+        <a href="codes.html">
+          <img src="icons/codes.svg" alt="codes">
+        </a>
+      </div>
+    </div>
+    <div class="iconDiv" tooltip="Вдохновение" tabindex="0">
+      <div class="iconSVG">
+        <a href="inspo.html">
+          <img src="icons/inspo.svg" alt="inspo">
+        </a>
+      </div>
+    </div>   
+    </header>
+    <script src="js/jquery.min.js"></script>
+    <script  src="js/animate.js"></script>
+    <main class="explore">
+        <h1 class="explore__headline txt anim-text-flow">Бесплатные шрифты, мокапы, ресурсы для разработки</h1>
+        <div class="explore__main-container">
+            <div class="explore__flex-container">
+                <div class="explore__object-container">
+                    <h2 class="explore__object-headline first-h5">Montserrat Alternates - Шрифт без засечек</h2>
+                    <img src="images/explore1.png" alt="item1" class="explore__object-pic">
+                    <span class="explore__object-tags">Тэги: шрифты, веб-дизайн</span>
+                    <a href="" class="explore__object-link">Ссылка для скачивания...</a>
+                </div>
+                <div class="explore__object-container">
+                    <h2 class="explore__object-headline">Web Template - Мокап для показа веб-дизайнов</h2>
+                    <img src="images/explore2.png" alt="item2" class="explore__object-pic">
+                    <span class="explore__object-tags">Тэги: мокапы, веб-дизайн, UX/UI</span>
+                    <a href="#" class="explore__object-link">Ссылка для скачивания...</a>
+                </div>
+                <div class="explore__object-container">
+                    <h2 class="explore__object-headline">Mobile Mockup - Мокап для адаптивов</h2>
+                    <img src="images/explore3.png" alt="item3" class="explore__object-pic">
+                    <span class="explore__object-tags">Тэги: мокапы, веб-дизайн, мобильное</span>
+                    <a href="#" class="explore__object-link">Ссылка для скачивания...</a>
+                </div>
+            </div>
+            <script src="js/search.js"></script>
+            <div class="explore__search">
+                <span class="explore__search-headline">Популярное:</span>
+                <input type="text" id="filter" placeholder="Найти тэг..." class="text-input">
+                <nav class="explore__search-list">
+                    <ul class="liveSearchBar">
+                        <li><a href="#">Montserrat</a></li>
+                        <li><a href="#">Мокап</a></li>
+                        <li><a href="#">Web Design</a></li>
+                        <li><a href="#">Mobile Mockup</a></li>
+                        <li><a href="#">Best Fonts</a></li>
+                        <li><a href="#">Веб шрифты</a></li>
+                        <li><a href="#">Template</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </main>
+    <footer class="inspo__footer">
+        <a href="index.html" class="inspo__footer-logo">web.</a>
+        <div class="inspo__links">
+            <ul class="inspo__footer-row">
+                <li ><a href="index.html" class="inspo__row-element">Главная</a></li>
+                <li ><a href="inspo.html" class="inspo__row-element">Вдохновение</a></li>
+                <li ><a href="codes.html" class="inspo__row-element">Статьи</a></li>
+                <li ><a href="explore.html" class="inspo__row-element">Ресурсы</a></li>
+                <li ><a href="profile.html" class="inspo__row-element">Профиль</a></li>
+            </ul>
+            <span class="inspo__thanks">Спасибо, что прочитали страницу полностью :)</span>
+            <ul class="inspo__footer-row">
+                <li ><a href="#" class="inspo__row-element">Наш GitHub</a></li>
+                <li ><a href="#" class="inspo__row-element">Наш Телеграм</a></li>
+                <li ><a href="#" class="inspo__row-element">Наш ВК</a></li>
+                <li ><a href="#" class="inspo__row-element">Наш LinkedIn</a></li>
+            </ul>
+        </div>
+    </footer>
+</body>
+</html>

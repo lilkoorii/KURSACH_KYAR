@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/headerstyle.css">
+    <link rel="stylesheet" href="css/animatestyle.css">
+    <link rel="stylesheet" href="css/media.css">
+    <title>Вдохновение</title>
+</head>
+<body class="inspo__body">
+    <header class="header">     
+    <div class="iconDiv" tooltip="Профиль" tabindex="0">
+      <div class="iconSVG">
+        <a href="profile.html">
+          <img src="icons/profile.svg" alt="profile">
+        </a>
+      </div>
+    </div>
+    <div class="iconDiv" tooltip="Ресурсы" tabindex="0">
+      <div class="iconSVG">
+        <a href="explore.html">
+          <img src="icons/explore.svg" alt="explore">
+        </a>
+      </div>
+    </div>
+    <div class="iconDiv" tooltip="Главная" tabindex="0">
+      <div class="iconSVG">
+        <a href="index.html">
+          <img src="icons/main.svg" alt="main">
+        </a>
+      </div>
+    </div>
+    <div class="iconDiv" tooltip="Тренды и фичи" tabindex="0">
+      <div class="iconSVG">
+        <a href="codes.html">
+          <img src="icons/codes.svg" alt="codes">
+        </a>
+      </div>
+    </div>
+    <div class="iconDiv" tooltip="Вдохновение" tabindex="0">
+      <div class="iconSVG">
+        <a href="inspo.html">
+          <img src="icons/inspo.svg" alt="inspo">
+        </a>
+      </div>
+    </div>   
+    </header>
+    <script src="js/jquery.min.js"></script>
+    <script  src="js/animate.js"></script>
+    <main class="inspo">
+        <h1 class="inspo__headline  txt anim-text-flow" id="first-row">Самые вдохновляющие<br>работы со всего мира</h1>
+        <h2 class="inspo__subheadline" id="second-row">Что задизайним на этот раз?</h2>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.13.2/jquery-ui.min.js"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js"></script>
+            <script src="js/appear.js"></script>
+        <div class="inspo__list">
+            <ul class="inspo__list-row1">
+                <li class="inspo__list-element"><button class="inspo__list-button" type="button">Типография</button></li>
+                <li class="inspo__list-element"><button class="inspo__list-button" type="button">Эко/Натуральный</button></li>
+                <li class="inspo__list-element"><button class="inspo__list-button" type="button">Минимализм</button></li>
+            </ul>
+            <ul class="inspo__list-row2">
+                <li class="inspo__list-element"><button class="inspo__list-button" type="button">Брендинг</button></li>
+                <li class="inspo__list-element"><button class="inspo__list-button" type="button">Трэвел</button></li>
+                <li class="inspo__list-element"><button class="inspo__list-button" type="button">Неон</button></li>
+                <li class="inspo__list-element"><button class="inspo__list-button" type="button">Тренды</button></li>
+            </ul>
+        </div>
+        <section class="inspo__explore">
+            <article class="inspo__work">
+                    <img class="inspo__work-picture-1" src="images/inspo1.png" alt="work1">
+                    <img class="inspo__work-picture-2" src="images/inspo1.png" alt="work1">
+                <div class="inspo__flex-inner">
+                    <a href="#" class="inspo__work-headline">Cyberpunk: Dark Matter</a>
+                    <p class="inspo__work-description">Лэндинг для Хэллоуин-вечеринки в стиле киберпанк от Riki Marley</p>
+                </div>
+              </article>
+            <article class="inspo__work">
+                    <img class="inspo__work-picture-1" src="images/inspo2.png" alt="work2">
+                    <img class="inspo__work-picture-2" src="images/inspo2.png" alt="work2">
+                <div class="inspo__flex-inner">
+                    <a href="#" class="inspo__work-headline">WriteAI</a>
+                    <p class="inspo__work-description">UX/UI Дизайн веб-сайта для искуственного интеллекта от нескольких разработчиков</p>
+                </div>
+              </article>
+            <article class="inspo__work">
+                <img class="inspo__work-picture-1" src="images/inspo3.png" alt="work3">
+                <img class="inspo__work-picture-2" src="images/inspo3.png" alt="work3">
+                <div class="inspo__flex-inner">
+                    <a href="onepage.html" class="inspo__work-headline">Kasho Club</a>
+                    <p class="inspo__work-description">Веб-дизайн сайта клуба Kasho от Annie Pham</p>
+                </div>
+              </article>
+          </section>
+    </main>
+    <footer class="inspo__footer">
+        <a href="index.html" class="inspo__footer-logo">web.</a>
+        <div class="inspo__links">
+            <ul class="inspo__footer-row">
+                <li ><a href="index.html" class="inspo__row-element">Главная</a></li>
+                <li ><a href="inspo.html" class="inspo__row-element">Вдохновение</a></li>
+                <li ><a href="codes.html" class="inspo__row-element">Статьи</a></li>
+                <li ><a href="explore.html" class="inspo__row-element">Ресурсы</a></li>
+                <li ><a href="profile.html" class="inspo__row-element">Профиль</a></li>
+            </ul>
+            <span class="inspo__thanks">Спасибо, что прочитали страницу полностью :)</span>
+            <ul class="inspo__footer-row">
+                <li ><a href="#" class="inspo__row-element">Наш GitHub</a></li>
+                <li ><a href="#" class="inspo__row-element">Наш Телеграм</a></li>
+                <li ><a href="#" class="inspo__row-element">Наш ВК</a></li>
+                <li ><a href="#" class="inspo__row-element">Наш LinkedIn</a></li>
+            </ul>
+        </div>
+    </footer>
+</body>
+</html>

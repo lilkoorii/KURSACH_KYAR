@@ -1063,3 +1063,8 @@
         width: 3.9063vw;
     }
 }
+@media screen and (min-width:1920px){
+    img.inspo__work-picture-2{
+        width: auto;
+    }
+}
